@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-docker run --rm -it ntrrg/htpasswd [OPTIONS] <username> [<passwd] [> .htpasswd]
+docker run --rm -it ntrrg/htpasswd [OPTIONS] USERNAME [PASSWORD] [> .htpasswd]
 ```
 
 For more information about `htpasswd` options see https://httpd.apache.org/docs/2.4/programs/htpasswd.html
